@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 21 // APIVersion
+    buildToolsVersion "21.1.2" //Compiler Version
 
     defaultConfig {
         applicationId "com.example.parksangha.myfirstapp"
-        minSdkVersion 14
-        targetSdkVersion 21
+        minSdkVersion 14  // 설치 가능한 최하버전
+        targetSdkVersion 21 // 설치 사능한 최대버전
         versionCode 1
         versionName "1.0"
     }
